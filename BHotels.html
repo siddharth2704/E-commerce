@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<!-- icons -->
+<script src="https://use.fontawesome.com/releases/v6.0.0-beta2/js/all.js"></script>
+    <title> Budget Hotels</title>
+
+    <style>
+      body{
+        background-image: url("webbg.jpg");
+      }
+      nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 100px;
+	color: #fff;
+}
+
+.menu ul li {
+	display: inline-block;
+	margin: 0 15px;
+	
+}
+.menu ul li a {
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	
+	color: rgb(0, 0, 0);
+	background-clip: text;
+    font-family: sans-serif;
+	font-size: 120%;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 20px rgb(255, 255, 255);
+	
+
+}
+.menu ul li a:hover{
+
+	color: skyblue;
+	
+}
+
+ 
+ .menu ul li ul {
+	 font-family: fantasy;
+	position: absolute;
+	background-color: transparent;
+	display: none
+  }
+ .menu ul li ul li { 
+	background-color: skyblue;opacity: 0.7;
+	display:list-item; 
+	
+  }
+ .menu ul li ul li a {display:block !important;} 
+  .menu ul li ul li:hover {background: rgb(12, 12, 12);}
+
+
+
+	.card{padding: 8px;}
+          .card-title{text-align: center;margin-left: 0px;}
+          .card-text{text-align: center;margin-left: 0px;}
+          .btn{padding:12px 18px;}
+	  
+
+
+	nav {
+		flex-direction: column;
+		align-items: flex;
+	}
+	.menu ul {
+		padding: 0;
+	}
+	.menu ul li {
+		margin: 0 15px 0 0;
+	}
+
+
+	nav {
+		padding: 30px;
+	}
+	.menu ul li a {
+		font-size: 10px;
+	}
+  .col-12{
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+  }
+
+
+ 
+    </style>
+        <body>
+          <!-- navbar -->
+          <div class="header">
+            <nav>
+              <div class="logo">
+                <b><a class="logo" href="index.html">Airbnb</a></b>
+              </div>
+              <div class="menu">
+                <ul>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                      Hotels <i class="fas fa-hotel"></i>
+                    </a>
+                  
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown"  >
+                      
+                      <li><a class="dropdown-item" href="Ehotels.html">Exotic View Hotels</a>
+                      
+                      
+                        
+                     
+                      <li><a class="dropdown-item" href="Lhotels.html">Luxury Hotels</a></li>
+                      <li><a class="dropdown-item" href="BHotels.html">Budget Hotels</a></li>
+                      
+                    </ul>
+                    </li>
+                                  
+                          <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Activities <i class="fas fa-hiking"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                          <li><a class="dropdown-item" href="PARAGLIDING.html">Paragliding</a></li>
+                          <li><a class="dropdown-item" href="TREKING.html">Trekking</a></li>
+                      
+                          <li><a class="dropdown-item" href="SCUBA.html">Scuba Diving</a></li>
+                      
+                          
+                        </ul>
+                        </li>
+        
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="Villas.html">Villas <i class="fas fa-home"></i></a>
+                          </li>
+        
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="OFFER.html">Offers <i class="fas fa-tags"></i></a>
+                          </li>        
+                </ul>
+                
+                
+              
+                  </div>
+                 
+              </div>
+            </nav>
+            
+
+              <!-- <cards></cards> -->
+          <div class="row">
+            <div class="container-fluid padding">
+              <div class="row welcome text-center">
+                <div class="col-12">
+                <h1>Budget Hotels</h1>
+                <br>
+                <br>
+                </div>
+              </div>
+            </div>
+              <div class="card col-lg-4 mx-auto" style="width: 20rem;">
+          <img style="border-style: inset;border-width: 6px;" src="BHOTEL1.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Park plaza</h5>
+            <p class="card-text">Park Plaza Eindhoven Hotel offers easy access to Stratums Eind and the most tempting shopping malls and restaurants. The city centre offers a wide range of shops, bars, and restaurants serving various cuisines.</p>
+            <a style="margin-left:38px;" href="Budget1.html" class="btn btn-outline-dark btn-lg">View more pictures.</a>
+          </div>
+        </div>
+         <div class="card col-lg-4 mx-auto" style="width: 20rem;">
+          <img style="border-style: inset; border-width: 6px;" src="BHOTEL2.jpg" height="50%" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ENSOBER HOTELS</h5>
+            <p class="card-text">ENSOBER HOTELS is near the most tempting shopping malls and restaurants. The city centre offers a wide range of shops, bars, and restaurants serving various cuisines</p>
+            <br>
+            <a style="margin-left:38px;" href="Budget2.html" class="btn btn-outline-dark btn-lg">View more pictures.</a>
+          </div>
+        </div>
+         <div class="card col-4 mx-auto" style="width: 20rem;">
+          <img style="border-style: inset;border-width: 6px;" src="vhotel1.jpg" class="card-img-top" class="img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Dolphin HOTEL</h5>
+            <p class="card-text">Dolphin Hotel offers easy access to nearby market and the most tempting shopping malls and restaurants. The city centre offers a wide range of shops, bars, and restaurants serving various cuisines.</p>
+          
+            <br>
+            <a style="margin-left:38px;" href="budget3.html" class="btn btn-outline-dark btn-lg">View more pictures.</a>
+          
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+    
+<!-- footers -->
+<div class="container" style="margin-top: 6cm;">
+	<footer class="py-3 my-4">
+	  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+		<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+		<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+		<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+		<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+		<li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+	  </ul>
+	  <p class="text-center text-muted">© 2021 Company, Inc</p>
+	</footer>
+  </div>
+  </body>
+</html>
